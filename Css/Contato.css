@@ -1,0 +1,51 @@
+body{
+    font-family:'Inter', sans-serif;
+    background-color: #615761;
+}
+
+section > nav{
+    display: flex;
+    flex-direction: row wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+a{
+    color: #F0D41C; 
+}
+
+a:hover{
+    color: red 
+}
+
+#contato > h2{
+    gap: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+form{
+    width: 30%;
+}
+
+#Rodapé{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 15%;
+    gap: 15%;
+}
+
+#submit{
+    width: 15%;
+    background-color:#F0D41C;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+}

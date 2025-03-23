@@ -1,0 +1,47 @@
+body{
+    font-family:'Inter', sans-serif;
+    background-color: #615761;
+}
+
+section > nav{ /*Ajustando Links*/
+    display: flex;
+    flex-direction: row wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+a{
+    color: #F0D41C; /* cor link */
+}
+
+a:hover{
+    color: red /*efeito legal quando passa o mouse em cima */
+}
+
+#imagem {         /*ajustando posição/alinhamento das imagens na pagina */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5%; /*afasta os elementos dos outros */
+
+}
+
+#imagem > img{       /*ajustando tamanho da imagem na tela */
+    width: 40%;
+    border-radius: 5%;
+}
+
+#Texto {
+    margin: 5%;
+    text-align: justify;
+    text-indent: 3%;
+}
+
+#Rodapé{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
